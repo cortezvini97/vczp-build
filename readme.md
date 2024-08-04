@@ -29,14 +29,14 @@ make createbuild
 5. Instale o projeto:
 
 ````bash
-source run-build --install
+./run-build --install
 source ~/.bashrc
 ````
 
 ## Instruções de Desinstalação
 
 ````bash
-source run-build --uninstall
+./run-build --uninstall
 source ~/.bashrc
 ````
 ## Comandos Manualmente
@@ -80,7 +80,7 @@ make createbuild
 6. Instale o projeto
 
 ````bash
-source run-build --install
+./run-build --install
 source ~/.bashrc
 ````
 
