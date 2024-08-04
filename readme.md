@@ -5,7 +5,7 @@
 1. Clone o repositório:
 
 ```bash
-   git clone https://github.com/cortezvini97/vczp-build.git
+   git clone https://github.com/cortezvini97/vczp-devel.git
 ```
 
 2. Acesse o diretório do projeto:
