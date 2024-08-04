@@ -11,7 +11,7 @@
 2. Acesse o diretório do projeto:
 
 ````bash
-cd vczp-build
+cd vczp-devel
 ````
 
 3. Crie o build:
