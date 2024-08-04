@@ -44,13 +44,13 @@ source ~/.bashrc
 1. Clone o repositório:
 
 ```bash
-   git clone https://github.com/cortezvini97/vczp-build.git
+   git clone https://github.com/cortezvini97/vczp-devel.git
 ```
 
 2. Acesse o diretório do projeto:
 
 ````bash
-cd vczp-build
+cd vczp-devel
 ````
 
 3. Crie o build:
