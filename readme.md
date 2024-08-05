@@ -5,13 +5,13 @@
 1. Clone o repositório:
 
 ```bash
-   git clone https://github.com/cortezvini97/vczp-devel.git
+   git clone https://github.com/cortezvini97/vczp-build.git
 ```
 
 2. Acesse o diretório do projeto:
 
 ````bash
-cd vczp-devel
+cd vczp-build
 ````
 
 3. Crie o build:
@@ -23,13 +23,13 @@ make createbuild
 4. Criar ambiente virtual e instalar Cython:
 
 ````bash
-./run-build --create-env
+./run-build.sh --create-env
 ````
 
 5. Instale o projeto:
 
 ````bash
-./run-build --install
+./run-build.sh --install
 source ~/.bashrc
 ````
 
@@ -37,20 +37,20 @@ source ~/.bashrc
 
 ````bash
 ./run-build --uninstall
-source ~/.bashrc
+source /etc/bashrc
 ````
 ## Comandos Manualmente
 
 1. Clone o repositório:
 
 ```bash
-   git clone https://github.com/cortezvini97/vczp-devel.git
+   git clone https://github.com/cortezvini97/vczp-build.git
 ```
 
 2. Acesse o diretório do projeto:
 
 ````bash
-cd vczp-devel
+cd vczp-build
 ````
 
 3. Crie o build:
@@ -68,20 +68,20 @@ make createbuild
 5. Configurando o projeto:
 
 ````bash
-./run-build --configure
+./run-build.sh --configure
 ````
 
 5. compilando o projeto:
 
 ````bash
-./run-build --compile
+./run-build.sh --compile
 ````
 
 6. Instale o projeto
 
 ````bash
-./run-build --install
-source ~/.bashrc
+run-build.sh --install
+source /etc/bashrc
 ````
 
 ## Clean And Reset
@@ -89,13 +89,13 @@ source ~/.bashrc
 1. Limpando dados de compilação
 
 ````bash
-./run-build --clean
+./run-build.sh --clean
 ````
 
 2. Limpando projeto
 
 ````bash
-./run-build --resetproject
+./run-build.sh --resetproject
 ````
 
 # Usando o Programa
